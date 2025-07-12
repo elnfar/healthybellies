@@ -3,7 +3,7 @@ export default function HormoneSwapSection() {
     <section className="py-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="prose prose-lg max-w-none">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8 leading-tight">
+          <h2 className="text-3xl sm:text-[32px] font-bold text-gray-900 mb-8 leading-tight">
             Why You Should Ditch Your "Hormone Disruptors" for GLP-1 Patches
           </h2>
           
