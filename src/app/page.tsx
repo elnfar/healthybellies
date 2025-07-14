@@ -69,9 +69,9 @@ export default function Home() {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <a href="/" className="text-2xl font-bold text-gray-900">
+              <Link href="/" className="text-2xl font-bold text-gray-900">
                 TopSkin<span className="text-blue-500">Patches</span>
-              </a>
+              </Link>
             </div>
             
             {/* Navigation Menu - Hidden on mobile, visible on desktop */}
@@ -108,18 +108,18 @@ export default function Home() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-              <a 
+              <Link
                 href="#categories" 
                 className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-slate-800 to-slate-900 text-white font-semibold rounded-xl hover:from-slate-900 hover:to-gray-900 transition-all transform hover:scale-105 shadow-xl"
               >
                 Explore Patch Categories →
-              </a>
-              <a 
+              </Link>
+              <Link
                 href="#methodology" 
                 className="inline-flex items-center px-8 py-4 border-2 border-slate-300 text-slate-700 font-semibold rounded-xl hover:bg-slate-50 hover:border-slate-400 transition-all"
               >
                 Our Testing Process
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -178,12 +178,12 @@ export default function Home() {
                     ))}
                   </div>
                   
-                  <a 
+                  <Link
                     href={category.link}
                     className="inline-flex items-center w-full justify-center px-6 py-4 bg-gradient-to-r from-slate-800 to-slate-900 text-white font-bold rounded-xl hover:from-slate-900 hover:to-gray-900 transition-all transform hover:scale-105 shadow-lg mt-auto"
                   >
                     View Reviews & Rankings →
-                  </a>
+                  </Link>
                 </div>
               </div>
             ))}
