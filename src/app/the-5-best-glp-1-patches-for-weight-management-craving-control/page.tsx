@@ -236,7 +236,6 @@ Customer service is basic but responsive, and while there's no money-back guaran
       <AnswerSection />
       <LimitedTimeOfferSection />
       <AdBanner />
-      <Footer />
     </div>
   );
 }

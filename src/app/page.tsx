@@ -1,4 +1,5 @@
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 export default function Home() {
   // Define categories of transdermal patches
@@ -62,17 +63,30 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-gray-100">
       
-      {/* Header with Logo */}
-      <header className="py-8 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center">
-            <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-2">
-              TopSkin<span className="text-navy-700">Patches</span>
-            </h1>
-            <p className="text-lg text-gray-600">Your trusted source for transdermal patch reviews</p>
+      {/* Navigation Bar */}
+      <nav className="bg-white shadow-lg sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-16">
+            {/* Logo */}
+            <div className="flex-shrink-0">
+              <a href="/" className="text-2xl font-bold text-gray-900">
+                TopSkin<span className="text-blue-500">Patches</span>
+              </a>
+            </div>
+            
+            {/* Navigation Menu - Hidden on mobile, visible on desktop */}
+            <div className="hidden md:flex items-center space-x-2">
+              <Link href="#categories" className="text-gray-700 hover:text-slate-600 px-3 py-2 text-sm font-medium transition-colors">
+                Categories
+              </Link>
+              
+              <Link href="#contact" className="text-gray-700 hover:text-slate-600 px-3 py-2 text-sm font-medium transition-colors">
+                Contact
+              </Link>
+            </div>
           </div>
         </div>
-      </header>
+      </nav>
 
       {/* Hero Section */}
       <section className="py-12 px-4 sm:px-6 lg:px-8">
@@ -201,7 +215,7 @@ export default function Home() {
         </div>
       </section>
 
-      <Footer />
+      <Footer id="contact"/>
     </div>
   );
 }
