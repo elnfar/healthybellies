@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="py-16">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mb-8">
-          <h1 className="text-4xl sm:text-[36px] font-bold text-gray-900 mb-6 leading-tight">
+    <section className="py-4">
+      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="mb-3">
+          <h1 className="text-3xl sm:text-[36px]  font-extrabold text-gray-900 mb-3">
             The 5 Best GLP-1 Patches for Weight Management & Craving Control
           </h1>
-          <p className="text-[20px] text-gray-600 mb-8 leading-relaxed">
+          <p className="text-[18px] text-gray-700 mb-8 leading-tight">
             Can GLP-1 patches really help with stubborn weight, uncontrollable cravings, and hormonal changes? 
             And which brands actually deliver results? Our editorial team investigated and reveals the most important findings.
           </p>
@@ -28,14 +28,14 @@ export default function HeroSection() {
         </div>
         
         {/* Hero Image */}
-        <div className="relative bg-gradient-to-r from-orange-100 to-orange-200 rounded-2xl p-8 mb-12">
-          <div className="w-full h-80 rounded-lg overflow-hidden">
+        <div className="relative bg-gradient-to-r from-orange-100 to-orange-200 rounded-2xl mb-16">
+          <div className=" rounded-lg overflow-hidden">
             <Image 
-              src="/belly.jpeg" 
+              src="/belly.png" 
               alt="GLP-1 patches for weight management" 
-              width={640} 
+              width={720} 
               height={320} 
-              className="w-full h-full object-cover rounded-lg" 
+              className=" h-full object-cover rounded-lg" 
             />
           </div>
         </div>

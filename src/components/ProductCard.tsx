@@ -20,9 +20,15 @@ export default function ProductCard({ patch }: ProductCardProps) {
 
       {/* 3 Boxes */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
-        <div className="bg-white rounded-lg p-6 border border-gray-200">
-          <div className="w-full h-40 flex items-center justify-center">
-            <Image src={patch.image} alt={patch.name} width={120} height={120} className="object-contain" />
+        <div className="bg-white rounded-lg border border-gray-200">
+          <div className="w-full h-52 flex items-center justify-center overflow-hidden">
+            <Image 
+              src={patch.image} 
+              alt={patch.name} 
+              width={600} 
+              height={400} 
+              className="object-contain w-full h-full" 
+            />
           </div>
         </div>
         

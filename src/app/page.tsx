@@ -115,7 +115,7 @@ export default function Home() {
                 Explore Patch Categories →
               </Link>
               <Link
-                href="#methodology" 
+                href="/testing-process" 
                 className="inline-flex items-center px-8 py-4 border-2 border-slate-300 text-slate-700 font-semibold rounded-xl hover:bg-slate-50 hover:border-slate-400 transition-all"
               >
                 Our Testing Process
@@ -178,12 +178,7 @@ export default function Home() {
                     ))}
                   </div>
                   
-                  <Link
-                    href={category.link}
-                    className="inline-flex items-center w-full justify-center px-6 py-4 bg-gradient-to-r from-slate-800 to-slate-900 text-white font-bold rounded-xl hover:from-slate-900 hover:to-gray-900 transition-all transform hover:scale-105 shadow-lg mt-auto"
-                  >
-                    View Reviews & Rankings →
-                  </Link>
+                  {/* Removed the Link button for "View Reviews & Rankings →" */}
                 </div>
               </div>
             ))}

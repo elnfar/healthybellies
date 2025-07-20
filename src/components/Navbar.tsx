@@ -6,12 +6,12 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div className="text-2xl font-bold text-gray-900">
-            TopSkinPatches
+          <div className="sm:text-2xl font-bold text-gray-900">
+            TopSkin<span className="text-blue-500">Patches</span>
           </div>
           
           {/* Get 70% Off Button */}
-          <div>
+          <div className="text-sm sm:text-base">
             <a 
               href="#1" 
               className="inline-flex items-center px-6 py-2 text-red-500 font-semibold transition-colors"
