@@ -16,8 +16,8 @@ export default function Home() {
   const patchesData: PatchData[] = [
     {
       rank: 1,
-      name: "Gentle Patches - GLP-1 Slimming Patch",
-      company: "Gentle Patches",
+      name: "Fit Patches - GLP-1 Slimming Patch",
+      company: "Fit Patches",
       grade: "A+",
       rating: 9.8,
       stars: 5,
@@ -25,13 +25,13 @@ export default function Home() {
       hasAward: true,
       hasPromotion: true,
       promotionText: "Buy 2 Get 1 FREE special promotion available through our exclusive link",
-      breakdown: `Listen, I've tested a LOT of weight loss solutions, but Gentle Patches GLP-1 is in a different league entirely. These aren't just patches—they're hormonal rebalancing systems that somehow managed to make my uncontrollable evening cravings disappear in under two weeks. What makes these special? It's the perfect marriage of "transdermal technology" and actual endocrinological expertise (not just marketing hype).
+      breakdown: `Listen, I've tested a LOT of weight loss solutions, but Fit Patches GLP-1 is in a different league entirely. These aren't just patches—they're hormonal rebalancing systems that somehow managed to make my uncontrollable evening cravings disappear in under two weeks. What makes these special? It's the perfect marriage of "transdermal technology" and actual endocrinological expertise (not just marketing hype).
 
-The revolutionary steady-release system with true 12-hour technology delivers ingredients exactly as your body needs them, while the proprietary Berberine complex gives your metabolism the boost it's been begging for since perimenopause hit. These weren't designed by some marketing intern with a weight loss blog. Gentle Patches collaborated with actual women's health specialists to create a patch that provides optimal hormonal support while simultaneously addressing the root causes of midlife weight gain.
+The revolutionary steady-release system with true 12-hour technology delivers ingredients exactly as your body needs them, while the proprietary Berberine complex gives your metabolism the boost it's been begging for since perimenopause hit. These weren't designed by some marketing intern with a weight loss blog. Fit Patches collaborated with actual women's health specialists to create a patch that provides optimal hormonal support while simultaneously addressing the root causes of midlife weight gain.
 
 It's like having a personal nutritionist and hormone specialist for your metabolism—all day, every day. The hypoallergenic adhesive doesn't just keep the patch firmly in place during hot flashes—it actually allows for optimal ingredient absorption without skin irritation. This is HUGE if you're dealing with sensitive skin or hormonal reactions (I interviewed seven women with rosacea who swear these are the only patches that don't trigger flare-ups).
 
-And here's the kicker: Gentle Patches offers a 30-day money-back guarantee and frequent buy-two-get-one deals. You can test them risk-free and return them hassle-free if they don't work for you (though I seriously doubt you'll want to).`,
+And here's the kicker: Fit Patches offers a 30-day money-back guarantee and frequent buy-two-get-one deals. You can test them risk-free and return them hassle-free if they don't work for you (though I seriously doubt you'll want to).`,
       ratings: {
         effectiveness: 99,
         medicalQuality: 98,
@@ -53,22 +53,22 @@ And here's the kicker: Gentle Patches offers a 30-day money-back guarantee and f
       cons: [
         'Often sold out due to high demand (seriously, they can\'t make these fast enough)'
       ],
-      bottomLine: `Gentle Patches GLP-1 is the undisputed champion in the weight management patch category. It combines medical expertise with innovative delivery technology at a price point that should honestly be way higher.
+      bottomLine: `Fit Patches GLP-1 is the undisputed champion in the weight management patch category. It combines medical expertise with innovative delivery technology at a price point that should honestly be way higher.
 
-Their limited-time bundle offers make the transition to hormonal balance particularly attractive. Gentle Patches impresses with first-class customer service, free shipping, and a straightforward money-back guarantee. Our testing team unanimously voted the Gentle Patches GLP-1 as the best weight management support product of 2025.`
+Their limited-time bundle offers make the transition to hormonal balance particularly attractive. Fit Patches impresses with first-class customer service, free shipping, and a straightforward money-back guarantee. Our testing team unanimously voted the Fit Patches GLP-1 as the best weight management support product of 2025.`
     },
     {
       rank: 2,
-      name: "SlimFlex Pro - Advanced GLP-1 Patch",
-      company: "SlimFlex",
-      grade: "A",
-      rating: 9.2,
-      stars: 5,
-      image: "/patch.png",
+      name: "WisePatch All Natural Contouring Shaping Firming Body Patch",
+      company: "WisePatch",
+      grade: "A-",
+      rating: 8.8,
+      stars: 4,
+      image: "/c2.jpg",
       hasAward: false,
-      hasPromotion: true,
+      hasPromotion: false,
       promotionText: "🔥 Limited Time: 40% OFF + Free Shipping on 3-Month Supply",
-      breakdown: `SlimFlex Pro has earned its spot as our #2 pick through consistent performance and impressive customer satisfaction rates. While it doesn't quite match Gentle Patches' revolutionary technology, it offers a solid alternative with proven results for hormonal weight management.
+      breakdown: `WisePatch Pro has earned its spot as our #2 pick through consistent performance and impressive customer satisfaction rates. While it doesn't quite match Fit Patches' revolutionary technology, it offers a solid alternative with proven results for hormonal weight management.
 
 The standout feature is their "Dual-Phase Release" system that provides initial appetite suppression within 2-3 hours, followed by sustained metabolic support for up to 10 hours. The blend includes clinically-studied ingredients like Chromium Picolinate and Green Coffee Bean Extract, which work synergistically to support healthy glucose metabolism.
 
@@ -76,11 +76,11 @@ What impressed me most during testing was the patch's durability. It stayed firm
 
 Customer service is responsive, and they offer a solid 60-day satisfaction guarantee. While the price point is higher than some competitors, the quality justifies the investment for those seeking a reliable GLP-1 support system.`,
       ratings: {
-        effectiveness: 92,
-        medicalQuality: 90,
-        valueForMoney: 88,
-        returnPolicy: 95,
-        customerSatisfaction: 93
+        effectiveness: 88,
+        medicalQuality: 85,
+        valueForMoney: 87,
+        returnPolicy: 88,
+        customerSatisfaction: 87
       },
       pros: [
         'Dual-Phase Release technology for extended support',
@@ -96,20 +96,20 @@ Customer service is responsive, and they offer a solid 60-day satisfaction guara
         'Higher price point than some alternatives',
         'Limited availability in certain regions'
       ],
-      bottomLine: `SlimFlex Pro delivers consistent results with reliable technology. While it doesn't revolutionize the category like our #1 pick, it offers excellent value for those seeking a dependable GLP-1 patch with proven effectiveness and outstanding customer support.`
+      bottomLine: `WisePatch Pro delivers consistent results with reliable technology. While it doesn't revolutionize the category like our #1 pick, it offers excellent value for those seeking a dependable GLP-1 patch with proven effectiveness and outstanding customer support.`
     },
     {
       rank: 3,
-      name: "MetaBoost Elite - Premium GLP-1 System",
-      company: "MetaBoost",
+      name: "Mugwort Belly Patch – Natural Moxibustion Stickers",
+      company: "BENJEN",
       grade: "B+",
-      rating: 8.7,
+      rating: 8.5,
       stars: 4,
-      image: "/patch.png",
+      image: "/c3.jpg",
       hasAward: false,
       hasPromotion: false,
       promotionText: "",
-      breakdown: `MetaBoost Elite rounds out our top 3 with a focus on premium ingredients and scientific formulation. While the patch design isn't as advanced as our top picks, the ingredient quality is exceptional, featuring pharmaceutical-grade compounds sourced from certified facilities.
+      breakdown: `Mugwort Elite rounds out our top 3 with a focus on premium ingredients and scientific formulation. While the patch design isn't as advanced as our top picks, the ingredient quality is exceptional, featuring pharmaceutical-grade compounds sourced from certified facilities.
 
 The unique selling point is their "Metabolic Stack" approach, combining traditional GLP-1 support with thermogenic compounds like Capsaicin and L-Carnitine. This creates a more comprehensive approach to weight management, though some users found the thermogenic effect too stimulating for evening use.
 
@@ -117,11 +117,11 @@ Adhesion is good but not great—the patches occasionally lifted at the edges du
 
 The main drawback is inconsistent availability and a somewhat complex ordering process. Customer service, while knowledgeable, can be slow to respond during peak periods.`,
       ratings: {
-        effectiveness: 87,
-        medicalQuality: 92,
-        valueForMoney: 82,
-        returnPolicy: 85,
-        customerSatisfaction: 88
+        effectiveness: 85,
+        medicalQuality: 83,
+        valueForMoney: 80,
+        returnPolicy: 84,
+        customerSatisfaction: 86
       },
       pros: [
         'Pharmaceutical-grade ingredients',
@@ -137,20 +137,20 @@ The main drawback is inconsistent availability and a somewhat complex ordering p
         'Complex ordering process',
         'Inconsistent product availability'
       ],
-      bottomLine: `MetaBoost Elite appeals to users who prioritize ingredient quality and scientific formulation. While the delivery system needs improvement, the premium ingredients and comprehensive approach make it a solid choice for informed consumers.`
+      bottomLine: `Mugwort appeals to users who prioritize ingredient quality and scientific formulation. While the delivery system needs improvement, the premium ingredients and comprehensive approach make it a solid choice for informed consumers.`
     },
     {
       rank: 4,
-      name: "VitaSlim Patches - Natural GLP-1 Support",
-      company: "VitaSlim",
+      name: "The Patch Remedy Metabolise Patches",
+      company: "The Patch Remedy",
       grade: "B",
-      rating: 8.1,
+      rating: 7.8,
       stars: 4,
-      image: "/patch.png",
+      image: "/c4.jpg",
       hasAward: false,
-      hasPromotion: true,
+      hasPromotion: false,
       promotionText: "🌿 Natural Formula - Save 25% on First Order",
-      breakdown: `VitaSlim takes a more natural approach to GLP-1 support, using herbal extracts and plant-based compounds instead of synthetic alternatives. For users preferring natural solutions, this patch offers a gentler introduction to transdermal weight management.
+      breakdown: `The Patch Remedy takes a more natural approach to GLP-1 support, using herbal extracts and plant-based compounds instead of synthetic alternatives. For users preferring natural solutions, this patch offers a gentler introduction to transdermal weight management.
 
 The standout ingredients include Gymnema Sylvestre, Bitter Melon Extract, and White Kidney Bean Extract—all traditionally used for blood sugar and appetite management. While the effects are more subtle than synthetic alternatives, many users appreciate the gentle, side-effect-free experience.
 
@@ -158,11 +158,11 @@ The patch design is basic but functional. Adhesion is adequate for normal daily 
 
 Customer feedback is generally positive, particularly from users seeking natural alternatives to pharmaceutical approaches. The price point is reasonable, making it accessible for long-term use.`,
       ratings: {
-        effectiveness: 81,
-        medicalQuality: 78,
-        valueForMoney: 85,
-        returnPolicy: 80,
-        customerSatisfaction: 82
+        effectiveness: 78,
+        medicalQuality: 75,
+        valueForMoney: 77,
+        returnPolicy: 77,
+        customerSatisfaction: 79
       },
       pros: [
         'Natural, plant-based ingredients',
@@ -178,20 +178,20 @@ Customer feedback is generally positive, particularly from users seeking natural
         'Basic patch design and adhesion',
         'Limited clinical research on specific blend'
       ],
-      bottomLine: `VitaSlim offers a natural entry point into GLP-1 patch therapy. While not as powerful as synthetic alternatives, it provides a gentle, affordable option for users prioritizing natural ingredients and minimal side effects.`
+      bottomLine: `The Patch Remedy offers a natural entry point into GLP-1 patch therapy. While not as powerful as synthetic alternatives, it provides a gentle, affordable option for users prioritizing natural ingredients and minimal side effects.`
     },
     {
       rank: 5,
-      name: "PowerPatch GLP-1 - Budget Friendly",
-      company: "PowerPatch",
+      name: "Keto Complete Daily Patch",
+      company: "Veru Wellness",
       grade: "C+",
-      rating: 7.3,
+      rating: 7.0,
       stars: 3,
-      image: "/patch.png",
+      image: "/c5.jpg",
       hasAward: false,
-      hasPromotion: true,
+      hasPromotion: false,
       promotionText: "💰 Budget Pick - Free Shipping on Orders Over $30",
-      breakdown: `PowerPatch rounds out our list as the budget-friendly option that still delivers basic GLP-1 support. While it lacks the advanced features of premium patches, it provides an affordable entry point for users wanting to try transdermal weight management.
+      breakdown: `Keto Complete Daily Patch rounds out our list as the budget-friendly option that still delivers basic GLP-1 support. While it lacks the advanced features of premium patches, it provides an affordable entry point for users wanting to try transdermal weight management.
 
 The ingredient profile is simpler, focusing on basic appetite suppressants like Hoodia Gordonii and 5-HTP. The patch technology is straightforward—no fancy release systems or advanced adhesives, but it gets the job done for basic appetite control.
 
@@ -199,11 +199,11 @@ Adhesion is the biggest weakness, with patches sometimes lifting after 6-8 hours
 
 Customer service is basic but responsive, and while there's no money-back guarantee, the low price point reduces financial risk. This is best suited for users who want to test the patch concept without significant investment.`,
       ratings: {
-        effectiveness: 73,
-        medicalQuality: 68,
-        valueForMoney: 90,
-        returnPolicy: 65,
-        customerSatisfaction: 75
+        effectiveness: 70,
+        medicalQuality: 65,
+        valueForMoney: 68,
+        returnPolicy: 70,
+        customerSatisfaction: 68
       },
       pros: [
         'Very affordable price point',
@@ -219,7 +219,7 @@ Customer service is basic but responsive, and while there's no money-back guaran
         'Limited customer support',
         'May need frequent replacement'
       ],
-      bottomLine: `PowerPatch serves its purpose as an affordable introduction to GLP-1 patches. While it can't compete with premium options in terms of technology or ingredients, it offers basic appetite support at a price point that makes experimentation risk-free.`
+      bottomLine: `Keto Complete Daily Patch serves its purpose as an affordable introduction to GLP-1 patches. While it can't compete with premium options in terms of technology or ingredients, it offers basic appetite support at a price point that makes experimentation risk-free.`
     }
   ];
 

@@ -6,7 +6,6 @@ export default function TestingProcess() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      
       {/* Hero Section */}
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

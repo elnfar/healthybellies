@@ -16,11 +16,11 @@ export default function HeroSection() {
           {/* Author Info */}
           <div className="mb-8">
             <div className="flex items-center">
-              <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mr-4">
-                <span className="text-white font-bold text-lg">J</span>
+              <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mr-4 select-none">
+                <Image src="/woman.png" alt="Jennifer" width={48} height={48} className=" object-cover w-full h-full rounded-full pointer-events-none" />
               </div>
               <div>
-                <p className="text-gray-900 font-semibold">Written by Jennifer on May 5, 2025</p>
+                <p className="text-gray-900">Written by <span className="font-semibold">Ashley</span> on May 5, 2025</p>
                 <p className="text-gray-600 text-sm">Senior Health Editor & Women's Wellness Expert</p>
               </div>
             </div>
