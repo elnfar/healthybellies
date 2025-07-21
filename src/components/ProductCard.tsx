@@ -63,14 +63,14 @@ export default function ProductCard({ patch }: ProductCardProps) {
         {patch.hasPromotion && (
         <div className="mb-6">
           <div className="border-2 border-dashed border-red-400 bg-red-50 p-4 rounded-lg text-center">
-            <span className="text-red-700 font-semibold text-base uppercase">{patch.promotionText}</span>
+            <span className="text-red-700 font-semibold text-base uppercase">🏷️ {patch.promotionText}</span>
           </div>
         </div>
         )}
 
         {/* Visit Site Button */}
         <div className="text-center mb-8">
-          <a href="#" className="inline-block w-full px-16 py-4 bg-gradient-to-b from-yellow-200 to-amber-400 text-black font-bold text-lg rounded-lg hover:from-yellow-500 hover:to-amber-600 transition-all shadow-lg">
+          <a href={patch.link} target="_blank" className="inline-block w-full px-16 py-4 bg-gradient-to-b from-yellow-200 to-amber-400 text-black font-bold text-lg rounded-lg hover:from-yellow-500 hover:to-amber-600 transition-all shadow-lg">
             VISIT SITE
           </a>
         </div>
@@ -149,14 +149,14 @@ export default function ProductCard({ patch }: ProductCardProps) {
       {patch.hasPromotion && (
         <div className="mt-6">
           <div className="border-2 border-dashed border-red-400 bg-red-50 p-4 rounded-lg text-center">
-            <span className="text-red-700 font-semibold text-base">{patch.promotionText}</span>
+            <span className="text-red-700 font-semibold text-base uppercase">🏷️ {patch.promotionText}</span>
           </div>
         </div>
       )}
 
       {/* Final Visit Site Button */}
       <div className="text-center mt-6">
-        <a href="#" className="inline-block w-full px-16 py-4 bg-gradient-to-r from-yellow-400 to-amber-500 text-black font-bold text-lg rounded-lg hover:from-yellow-500 hover:to-amber-600 transition-all shadow-lg">
+        <a href={patch.link} target="_blank" className="inline-block w-full px-16 py-4 bg-gradient-to-r from-yellow-400 to-amber-500 text-black font-bold text-lg rounded-lg hover:from-yellow-500 hover:to-amber-600 transition-all shadow-lg">
           VISIT SITE
         </a>
       </div>

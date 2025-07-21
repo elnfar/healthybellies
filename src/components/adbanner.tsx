@@ -8,14 +8,12 @@ export default function AdBanner() {
         <div className="">
           <div className="flex flex-col md:flex-row items-center">
             {/* Left Column - Image */}
-            <div className="w-64 md:w-80 h-64 md:h-80 relative mb-4 md:mb-0 md:mr-4 overflow-hidden">
+            <div className="w-60 md:w-80 h-64 md:h-80 relative mt-4 md:mb-0 md:mr-4 overflow-hidden">
               <Image 
                 src="/patch.png" 
                 alt="Fit Patches GLP-1" 
                 fill
-                className="object-cover w-full h-full"
-                style={{ objectFit: 'cover' }}
-                sizes="(max-width: 768px) 256px, 320px"
+                className="object-cover"
               />
             </div>
             

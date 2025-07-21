@@ -3,6 +3,7 @@ export interface PatchData {
   name: string;
   company: string;
   grade: string;
+  link: string;
   rating: number;
   stars: number;
   image: string;
