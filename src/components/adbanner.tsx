@@ -11,7 +11,7 @@ export default function AdBanner() {
             <div className="w-64 md:w-80 h-64 md:h-80 relative mb-4 md:mb-0 md:mr-4 overflow-hidden">
               <Image 
                 src="/patch.png" 
-                alt="Gentle Patches GLP-1" 
+                alt="Fit Patches GLP-1" 
                 fill
                 className="object-cover w-full h-full"
                 style={{ objectFit: 'cover' }}
@@ -22,7 +22,7 @@ export default function AdBanner() {
             {/* Right Column - Content */}
             <div className="space-y-2 md:space-y-4  md:text-left px-6 py-4 md:py-12">
               <h3 className="text-xl md:text-2xl font-bold text-gray-900 underline">
-                Our Top Pick – Gentle Patches GLP-1
+                Our Top Pick – Fit Patches GLP-1
               </h3>
               
               <div className="space-y-1 text-xs md:text-sm">

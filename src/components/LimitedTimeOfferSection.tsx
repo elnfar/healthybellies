@@ -8,7 +8,7 @@ export default function LimitedTimeOfferSection() {
           </h2>
           
           <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
-            This is wild — when I started writing this review, I never expected this to happen. The team at Gentle Patches saw the OVERWHELMING response from my readers and reached out to me directly.
+            This is wild — when I started writing this review, I never expected this to happen. The team at Fit Patches saw the OVERWHELMING response from my readers and reached out to me directly.
           </p>
           
           <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
