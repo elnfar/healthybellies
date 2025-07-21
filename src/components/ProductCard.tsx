@@ -77,40 +77,50 @@ export default function ProductCard({ patch }: ProductCardProps) {
 
         {/* Rating Bars */}
         <div className="mb-8 space-y-4">
-          <div className="flex items-center justify-between">
-            <span className="text-gray-700 font-medium w-32 text-sm">Effectiveness</span>
-            <div className="flex-1 mx-4 bg-gray-200 rounded-full h-6">
-              <div className="bg-green-500 h-6 rounded-full" style={{width: `${patch.ratings.effectiveness}%`}}></div>
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+            <span className="text-gray-700 font-medium text-sm mb-2 sm:mb-0 sm:w-32">Effectiveness</span>
+            <div className="flex items-center sm:flex-1 sm:mx-4">
+              <div className="flex-1 bg-gray-200 rounded-full h-6">
+                <div className="bg-green-500 h-6 rounded-full" style={{width: `${patch.ratings.effectiveness}%`}}></div>
+              </div>
+              <span className="text-gray-700 font-bold text-sm ml-4 sm:w-16">{(patch.ratings.effectiveness/10).toFixed(1)}/10</span>
             </div>
-            <span className="text-gray-700 font-bold w-16 text-sm">{(patch.ratings.effectiveness/10).toFixed(1)}/10</span>
           </div>
-          <div className="flex items-center justify-between">
-            <span className="text-gray-700 font-medium w-32 text-sm">Medical Quality</span>
-            <div className="flex-1 mx-4 bg-gray-200 rounded-full h-6">
-              <div className="bg-green-500 h-6 rounded-full" style={{width: `${patch.ratings.medicalQuality}%`}}></div>
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+            <span className="text-gray-700 font-medium text-sm mb-2 sm:mb-0 sm:w-32">Medical Quality</span>
+            <div className="flex items-center sm:flex-1 sm:mx-4">
+              <div className="flex-1 bg-gray-200 rounded-full h-6">
+                <div className="bg-green-500 h-6 rounded-full" style={{width: `${patch.ratings.medicalQuality}%`}}></div>
+              </div>
+              <span className="text-gray-700 font-bold text-sm ml-4 sm:w-16">{(patch.ratings.medicalQuality/10).toFixed(1)}/10</span>
             </div>
-            <span className="text-gray-700 font-bold w-16 text-sm">{(patch.ratings.medicalQuality/10).toFixed(1)}/10</span>
           </div>
-          <div className="flex items-center justify-between">
-            <span className="text-gray-700 font-medium w-32 text-sm">Value for Money</span>
-            <div className="flex-1 mx-4 bg-gray-200 rounded-full h-6">
-              <div className="bg-green-500 h-6 rounded-full" style={{width: `${patch.ratings.valueForMoney}%`}}></div>
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+            <span className="text-gray-700 font-medium text-sm mb-2 sm:mb-0 sm:w-32">Value for Money</span>
+            <div className="flex items-center sm:flex-1 sm:mx-4">
+              <div className="flex-1 bg-gray-200 rounded-full h-6">
+                <div className="bg-green-500 h-6 rounded-full" style={{width: `${patch.ratings.valueForMoney}%`}}></div>
+              </div>
+              <span className="text-gray-700 font-bold text-sm ml-4 sm:w-16">{(patch.ratings.valueForMoney/10).toFixed(1)}/10</span>
             </div>
-            <span className="text-gray-700 font-bold w-16 text-sm">{(patch.ratings.valueForMoney/10).toFixed(1)}/10</span>
           </div>
-          <div className="flex items-center justify-between">
-            <span className="text-gray-700 font-medium w-32 text-sm">Return Policy</span>
-            <div className="flex-1 mx-4 bg-gray-200 rounded-full h-6">
-              <div className="bg-green-500 h-6 rounded-full" style={{width: `${patch.ratings.returnPolicy}%`}}></div>
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+            <span className="text-gray-700 font-medium text-sm mb-2 sm:mb-0 sm:w-32">Return Policy</span>
+            <div className="flex items-center sm:flex-1 sm:mx-4">
+              <div className="flex-1 bg-gray-200 rounded-full h-6">
+                <div className="bg-green-500 h-6 rounded-full" style={{width: `${patch.ratings.returnPolicy}%`}}></div>
+              </div>
+              <span className="text-gray-700 font-bold text-sm ml-4 sm:w-16">{(patch.ratings.returnPolicy/10).toFixed(1)}/10</span>
             </div>
-            <span className="text-gray-700 font-bold w-16 text-sm">{(patch.ratings.returnPolicy/10).toFixed(1)}/10</span>
           </div>
-          <div className="flex items-center justify-between">
-            <span className="text-gray-700 font-medium w-32 text-sm">Customer Satisfaction</span>
-            <div className="flex-1 mx-4 bg-gray-200 rounded-full h-6">
-              <div className="bg-green-500 h-6 rounded-full" style={{width: `${patch.ratings.customerSatisfaction}%`}}></div>
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+            <span className="text-gray-700 font-medium text-sm mb-2 sm:mb-0 sm:w-32">Customer Satisfaction</span>
+            <div className="flex items-center sm:flex-1 sm:mx-4">
+              <div className="flex-1 bg-gray-200 rounded-full h-6">
+                <div className="bg-green-500 h-6 rounded-full" style={{width: `${patch.ratings.customerSatisfaction}%`}}></div>
+              </div>
+              <span className="text-gray-700 font-bold text-sm ml-4 sm:w-16">{(patch.ratings.customerSatisfaction/10).toFixed(1)}/10</span>
             </div>
-            <span className="text-gray-700 font-bold w-16 text-sm">{(patch.ratings.customerSatisfaction/10).toFixed(1)}/10</span>
           </div>
         </div>
 
