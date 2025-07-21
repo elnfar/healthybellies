@@ -2,13 +2,21 @@ import Image from "next/image";
 
 export default function AdBanner() {
   return (
-    <section className=" py-6">
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-6 ">
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative">
       <div className="bg-yellow-100 rounded-lg  border-2 border-gray-200 overflow-hidden">
         <div className="">
           <div className="flex flex-col md:flex-row items-center">
             {/* Left Column - Image */}
+            <Image 
+                src="/bp.png" 
+                alt="Fit Patches GLP-1" 
+                width={500}
+                height={500}
+                className="object-cover absolute sm:-top-10 sm:-left-10 sm:w-48 sm:h-48 z-10 -top-5 left-20 h-32 w-32"
+              />
             <div className="w-60 md:w-80 h-64 md:h-80 relative mt-4 md:mb-0 md:mr-4 overflow-hidden">
+           
               <Image 
                 src="/patch.png" 
                 alt="Fit Patches GLP-1" 
