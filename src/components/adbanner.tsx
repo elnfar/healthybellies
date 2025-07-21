@@ -43,7 +43,8 @@ export default function AdBanner() {
               
               <button className="pt-2 md:pt-4">
                 <a 
-                  href="#" 
+                  href="https://fitpatches.com/pages/glp-1-landing-page#try-now" 
+                  target="_blank"
                   className="inline-flex items-center px-4 md:px-6 py-2 md:py-3 bg-black text-white font-bold transition-colors text-base md:text-lg hover:bg-gray-400"
                 >
                   CHECK AVAILABILITY
