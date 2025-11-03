@@ -4,58 +4,64 @@ export default function LimitedTimeOfferSection() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="prose prose-lg max-w-none">
           <h2 className="text-3xl sm:text-[32px] font-bold text-gray-900 mb-8 leading-tight">
-            Holy Crap – We Convinced Them to Give You 40% OFF! (Limited Time Only)
+            Exclusive Reader Offer: Up to 40% OFF AgeSlim GLP-1 Patches + a FREE Gift — Limited-Time Only
           </h2>
           
           <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
-            This is wild — when I started writing this review, I never expected this to happen. The team at Fit Patches saw the OVERWHELMING response from my readers and reached out to me directly.
-          </p>
-          
-          <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
-            I'll be real with you — I told them flat-out:
-          </p>
-          
-          <p className="text-[20px] text-gray-700 leading-relaxed mb-6 italic">
-            "Your patches transformed my hormonal health, but they're still too expensive for some of the women who need them most."
-          </p>
-          
-          <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
-            After a little back-and-forth (okay, maybe some friendly persistence), I convinced them to do something they've never done before.
-          </p>
-          
-          <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
-            👉 Because of the massive demand from my community, I negotiated a deal exclusively for my female readers over 40.
-          </p>
-          
-          <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
-            Here's what they're offering — just for us:
-          </p>
-          
-          <div className="ml-6 mb-6">
-            <p className="text-lg text-gray-700 leading-relaxed mb-3 font-semibold">
-              💥 A huge 40% discount on their premium GLP-1 support patches
-            </p>
-            
-            <p className="text-lg text-gray-700 leading-relaxed mb-3 font-semibold">
-              ✅ A 30-day, no-questions-asked money-back guarantee
-            </p>
-            
-            <p className="text-lg text-gray-700 leading-relaxed mb-0 font-semibold">
-              📦 FREE shipping on all bundles
-            </p>
-          </div>
-          
-          <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
-            My team and I pushed hard to lock this in because we genuinely believe in these patches. At this price, it's honestly a no-brainer if you're struggling with hormonal weight gain and want real support.
-          </p>
-          
-          <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
-            ⚠️ Just a heads up — their last bundle deal sold out in under 48 hours. This limited-time offer is only available while supplies last, so don't wait too long.
-          </p>
-          
-          <p className="text-[20px] text-gray-700 leading-relaxed mb-8">
-            Click the "CLAIM DISCOUNT" button below to grab yours before they're gone!
-          </p>
+  This was completely unexpected — when I began writing this review, I never imagined the <strong>AgeSlim team</strong> would reach out directly after seeing the incredible response from my readers.
+</p>
+
+<p className="text-[20px] text-gray-700 leading-relaxed mb-6">
+  I was honest with them from the start:
+</p>
+
+<p className="text-[20px] text-gray-700 leading-relaxed mb-6 italic">
+  “Your patches changed how I feel in my own skin — but they’re still out of reach for some of the women who truly need them.”
+</p>
+
+<p className="text-[20px] text-gray-700 leading-relaxed mb-6">
+  After a few conversations (and some gentle persuasion on my part), they agreed to do something they’ve never done before.
+</p>
+
+<p className="text-[20px] text-gray-700 leading-relaxed mb-6">
+  👉 Because of the overwhelming demand from this community, I was able to secure a special, limited-time offer exclusively for my readers.
+</p>
+
+<p className="text-[20px] text-gray-700 leading-relaxed mb-6">
+  Here’s what they’re giving you — for a short time only:
+</p>
+
+<div className="ml-6 mb-6">
+  <p className="text-lg text-gray-700 leading-relaxed mb-3 font-semibold">
+    💥 Up to <strong>40% OFF</strong> AgeSlim’s premium GLP-1 support patches
+  </p>
+
+  <p className="text-lg text-gray-700 leading-relaxed mb-3 font-semibold">
+    🎁 Plus a <strong>FREE bonus gift</strong> with every bundle
+  </p>
+
+  <p className="text-lg text-gray-700 leading-relaxed mb-3 font-semibold">
+    ✅ A <strong>30-day money-back guarantee</strong> — no questions asked
+  </p>
+
+  <p className="text-lg text-gray-700 leading-relaxed mb-0 font-semibold">
+    📦 <strong>FREE shipping</strong> on all orders
+  </p>
+</div>
+
+<p className="text-[20px] text-gray-700 leading-relaxed mb-6">
+  We pushed hard to make this happen because we genuinely believe every woman deserves access to real hormonal support — without breaking the bank. 
+  At this price, it’s easily the most affordable way to experience the difference GLP-1 balance can make.
+</p>
+
+<p className="text-[20px] text-gray-700 leading-relaxed mb-6">
+  ⚠️ Quick note — their last promotion sold out in less than two days. This offer is <strong>available for a limited time only</strong>, so if you’re ready to start your transformation, don’t wait too long.
+</p>
+
+<p className="text-[20px] text-gray-700 leading-relaxed mb-8">
+  Tap the <strong>“SHOP NOW</strong> button below to secure your offer before it ends.
+</p>
+
         </div>
       </div>
     </section>

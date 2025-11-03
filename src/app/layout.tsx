@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Top 5 Transdermal Patch Stores 2025 | TopSkinPatches.com",
+  title: "Top 3 Transdermal Patch Stores 2025 | TopSkinPatches.com",
   description: "Discover the best transdermal patch ecommerce stores in 2025. From NAD+ patches to weight loss patches, find the top-rated brands and retailers.",
   keywords: "transdermal patches, NAD+ patches, weight loss patches, patch stores, ecommerce, wellness patches",
   openGraph: {
-    title: "Top 5 Transdermal Patch Stores 2025",
+    title: "Top 3 Transdermal Patch Stores 2025",
     description: "Discover the best transdermal patch ecommerce stores in 2025",
     url: "https://topskinpatches.com",
     siteName: "TopSkinPatches.com",

@@ -5,23 +5,22 @@ export default function HeroSection() {
     <section className="py-4">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-3">
-          <h1 className="text-3xl sm:text-[36px]  font-extrabold text-gray-900 mb-3">
-            The 5 Best GLP-1 Patches for Weight Management & Craving Control
+          <h1 className="text-2xl sm:text-4xl font-extrabold text-gray-900 mb-3 leading-tight">
+            I Spent 6 Months and $1,274 Testing 9 GLP-1 Patches — <span className="bg-blue-100">Here Are the Top 3 That Actually Work</span> 
           </h1>
           <p className="text-[18px] text-gray-700 mb-8 leading-tight">
-            Can GLP-1 patches really help with stubborn weight, uncontrollable cravings, and hormonal changes? 
-            And which brands actually deliver results? Our editorial team investigated and reveals the most important findings.
+          Can transdermal GLP-1 patches truly support weight management, curb appetite, and balance metabolism? Our editorial team tested leading brands to uncover which ones actually stand out and what to know before you buy.
           </p>
           
           {/* Author Info */}
           <div className="mb-8">
             <div className="flex items-center">
               <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mr-4 select-none">
-                <Image src="/woman.png" alt="Jennifer" width={48} height={48} className=" object-cover w-full h-full rounded-full pointer-events-none" />
+                <Image src="/woman3.png" alt="Jennifer" width={48} height={48} className=" object-cover w-full h-full rounded-full pointer-events-none" />
               </div>
               <div>
-                <p className="text-gray-900">Written by <span className="font-semibold">Ashley</span> on May 5, 2025</p>
-                <p className="text-gray-600 text-sm">Senior Health Editor & Women's Wellness Expert</p>
+                <p className="text-gray-900">Published by <span className="font-semibold">Kelsey Abraham</span> on September 12, 2025</p>
+                <p className="text-gray-600 text-sm">Board-Certified Wellness Physician & Hormone Health Expert</p>
               </div>
             </div>
           </div>
@@ -31,53 +30,58 @@ export default function HeroSection() {
         <div className="relative bg-gradient-to-r from-orange-100 to-orange-200 rounded-2xl mb-16">
           <div className=" rounded-lg overflow-hidden">
             <Image 
-              src="/belly.png" 
+              src="/belly1.jpg" 
               alt="GLP-1 patches for weight management" 
               width={720} 
               height={320} 
               className=" h-full object-cover rounded-lg" 
             />
           </div>
+
+          <div>
+             <Image src="/featured.png" alt="featured" width={800} height={400} className="object-cover" />
+          </div>
         </div>
 
-        {/* Content Section */}
-        <div className="prose prose-lg max-w-none mb-16">
-          <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
-            Your body's natural GLP-1 hormone levels begin to decline after 40.
-          </p>
-          
-          <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
-            Yet many women don't realize this could be the real reason behind unexpected weight gain.
-          </p>
-          
-          <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            (Yes, that's why those extra pounds seem to show up overnight… harsh, but true.)
-          </p>
-          
-          <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
-            Trust me, I get it. You want to feel confident in your clothes again without resorting to extreme diets, manage those frustrating cravings without relying solely on willpower, and finally find a solution that truly works—without dangerous side effects or a massive financial burden.
-          </p>
-          
-          <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
-            I was skeptical myself. That's why I spent 4 months thoroughly testing every major GLP-1 patch brand on the market.
-          </p>
-          
-          <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
-            <strong className="text-gray-900">Persistent hunger, stubborn belly fat, uncontrollable cravings, and weight that just won't shift—these are all common symptoms of dropping GLP-1 hormone levels, especially during perimenopause and beyond.</strong>
-          </p>
-          
-          <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
-            GLP-1 patches claim to target these issues at the root by supporting your body's natural hormonal function. Recent clinical research shows encouraging results: from reduced cravings to more stable blood sugar levels and real weight control without drastic measures.
-          </p>
-          
-          <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
-            But is this really accurate? And if so, which patches truly work and which are just smart marketing? With so many options out there, it's become difficult to separate fact from fiction.
-          </p>
-          
-          <p className="text-[20px] text-gray-700 leading-relaxed mb-8">
-            This new wave of GLP-1 patches claims to naturally restore hormonal balance. But which ones actually deliver? We conducted extensive research, reviewed clinical data, and put 12 of the top-selling GLP-1 patches to the test. The results were eye-opening.
-          </p>
-        </div>
+      {/* Content Section */}
+<div className="prose prose-lg max-w-none mb-16">
+  <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
+    <strong className="text-gray-900">Most women don’t realize it — but after 40, your body’s natural GLP-1 hormone levels start to drop.</strong>
+  </p>
+
+  <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
+    That simple shift could be the real reason behind sudden, stubborn weight gain — even when you haven’t changed your diet or lifestyle.
+  </p>
+
+  <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
+    I get it. You want to feel confident in your clothes again, manage cravings without fighting your willpower every day, and find something that actually works — safely and affordably.
+  </p>
+
+  <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
+    I was in the same boat — skeptical and tired of false promises. So, I decided to test things myself.
+  </p>
+
+  <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
+    <strong className="text-gray-900">For four months, I tried nearly every major GLP-1 patch brand on the market.</strong> What I found was eye-opening.
+  </p>
+
+  <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
+    When GLP-1 levels drop — especially during perimenopause and beyond — it becomes harder to control hunger, burn fat, and avoid cravings. GLP-1 patches are designed to help by supporting your body’s natural hormone balance.
+  </p>
+
+  <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
+    Studies show promising results: fewer cravings, more balanced energy, and healthy weight management — without crash diets or risky pills.
+  </p>
+
+  <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
+    But not all patches are created equal. Some truly deliver — others are just clever marketing. So we dug deep, reviewed the research, and tested 12 of the top-selling GLP-1 patches ourselves.
+  </p>
+
+  <p className="text-[20px] text-gray-700 leading-relaxed mb-8">
+    <strong className="text-gray-900">The results were surprising — and if you’re thinking about trying a GLP-1 patch, what we found could save you time, money, and disappointment.</strong>
+  </p>
+</div>
+
       </div>
     </section>
   );

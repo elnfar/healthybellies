@@ -1,0 +1,33 @@
+    <div className="bg-white rounded-lg p-4 border-2 border-gray-200 shadow-sm">
+                <div className="text-center">
+                  <p className="text-gray-900 font-bold lg:text-xl mb-3 text-red-400">
+                      🔥<strong>70% OFF - BLACK FRIDAY DEAL ENDS IN:</strong>
+                  </p>
+                  
+                  <div className="flex justify-center items-center gap-4">
+                    {/* Hours */}
+                    <div className="text-center">
+                      <div className="text-3xl sm:text-4xl font-black text-gray-900">
+                        {String(timeLeft.hours).padStart(2, '0')}
+                      </div>
+                      <div className="text-xs text-gray-500 font-medium">Hrs</div>
+                    </div>
+                    
+                    {/* Minutes */}
+                    <div className="text-center">
+                      <div className="text-3xl sm:text-4xl font-black text-gray-900">
+                        {String(timeLeft.minutes).padStart(2, '0')}
+                      </div>
+                      <div className="text-xs text-gray-500 font-medium">Mins</div>
+                    </div>
+                    
+                    {/* Seconds */}
+                    <div className="text-center">
+                      <div className="text-3xl sm:text-4xl font-black text-gray-900">
+                        {String(timeLeft.seconds).padStart(2, '0')}
+                      </div>
+                      <div className="text-xs text-gray-500 font-medium">Secs</div>
+                    </div>
+                  </div>
+                </div>
+              </div>

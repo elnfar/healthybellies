@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { PatchData } from "@/types/patch";
+import Link from "next/link";
 
 interface ProductCardProps {
   patch: PatchData;
@@ -8,42 +9,52 @@ interface ProductCardProps {
 export default function ProductCard({ patch }: ProductCardProps) {
   return (
     <div id={`${patch.rank}`} className="bg-gray-50 rounded-2xl border-2 border-gray-200 shadow-lg p-8 mb-8">
-      {/* Header */}
-      <div className="flex items-center justify-between mb-6">
-        <div className="flex-1">
-          <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2 underline">
-            {patch.rank}. {patch.name}
-          </h3>
-          <p className="text-base text-gray-600">by {patch.company}</p>
-        </div>
-      </div>
-
-      {/* 3 Boxes */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
-        <div className="bg-white rounded-lg border border-gray-200">
-          <div className="w-full h-52 flex items-center justify-center overflow-hidden">
-            <Image 
-              src={patch.image} 
-              alt={patch.name} 
-              width={600} 
-              height={400} 
-              className="object-contain w-full h-full" 
-            />
+      {/* Header - Name on Left, Grade/Rating/Image on Right */}
+      <div className="flex flex-col lg:flex-row gap-6 mb-8">
+        {/* Left Side - Product Name */}
+        <div className="flex-1 flex items-center">
+          <div>
+            <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-3 underline">
+              <Link href={patch.link} target="_blank">{patch.name}</Link>
+            </h3>
+            <p className="text-lg text-gray-600">by {patch.company}</p>
           </div>
         </div>
-        
-        <div className="bg-white rounded-lg p-6 border border-gray-200 flex flex-col items-center justify-center">
-          <div className="text-blue-500 text-base font-semibold mb-2">Overall Grade</div>
-          <div className="text-5xl font-bold text-blue-600">{patch.grade}</div>
-        </div>
-        
-        <div className="bg-white rounded-lg p-6 border border-gray-200 flex flex-col items-center justify-center">
-          <div className="text-blue-500 text-base font-semibold mb-2">Rating</div>
-          <div className="text-3xl font-bold text-gray-900 mb-2">{patch.rating}/10</div>
-          <div className="flex text-yellow-400 text-xl">
-            {'★★★★★'.split('').map((star, i) => (
-              <span key={i} className={i < patch.stars ? 'text-yellow-400' : 'text-gray-300'}>{star}</span>
-            ))}
+
+        {/* Right Side - Image and Rating */}
+        <div className="flex flex-col gap-4 lg:w-auto">
+          {/* Emphasized Grade Comment */}
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-600 p-4 rounded-r-lg">
+            <p className="text-blue-900 font-bold text-lg italic">
+              "Graded {patch.grade} by 27K+ Users"
+            </p>
+          </div>
+
+          {/* Image and Rating side by side */}
+          <div className="flex flex-row gap-4">
+            {/* Image */}
+            <div className="bg-white rounded-lg border border-gray-200 flex-1 sm:w-56">
+              <div className="w-full h-52 flex items-center justify-center overflow-hidden">
+                <Image 
+                  src={patch.image} 
+                  alt={patch.name} 
+                  width={600} 
+                  height={400} 
+                  className="object-contain w-full h-full" 
+                />
+              </div>
+            </div>
+            
+            {/* Rating */}
+            <div className="bg-white rounded-lg p-6 border border-gray-200 flex flex-col items-center justify-center flex-1 sm:w-40">
+              <div className="text-blue-500 text-base font-semibold mb-2">Rating</div>
+              <div className="text-3xl font-bold text-gray-900 mb-2">{patch.rating}/10</div>
+              <div className="flex text-yellow-400 text-xl">
+                {'★★★★★'.split('').map((star, i) => (
+                  <span key={i} className={i < patch.stars ? 'text-yellow-400' : 'text-gray-300'}>{star}</span>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -75,55 +86,6 @@ export default function ProductCard({ patch }: ProductCardProps) {
           </a>
         </div>
 
-        {/* Rating Bars */}
-        <div className="mb-8 space-y-4">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
-            <span className="text-gray-700 font-medium text-sm mb-2 sm:mb-0 sm:w-32">Effectiveness</span>
-            <div className="flex items-center sm:flex-1 sm:mx-4">
-              <div className="flex-1 bg-gray-200 rounded-full h-6">
-                <div className="bg-green-500 h-6 rounded-full" style={{width: `${patch.ratings.effectiveness}%`}}></div>
-              </div>
-              <span className="text-gray-700 font-bold text-sm ml-4 sm:w-16">{(patch.ratings.effectiveness/10).toFixed(1)}/10</span>
-            </div>
-          </div>
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
-            <span className="text-gray-700 font-medium text-sm mb-2 sm:mb-0 sm:w-32">Medical Quality</span>
-            <div className="flex items-center sm:flex-1 sm:mx-4">
-              <div className="flex-1 bg-gray-200 rounded-full h-6">
-                <div className="bg-green-500 h-6 rounded-full" style={{width: `${patch.ratings.medicalQuality}%`}}></div>
-              </div>
-              <span className="text-gray-700 font-bold text-sm ml-4 sm:w-16">{(patch.ratings.medicalQuality/10).toFixed(1)}/10</span>
-            </div>
-          </div>
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
-            <span className="text-gray-700 font-medium text-sm mb-2 sm:mb-0 sm:w-32">Value for Money</span>
-            <div className="flex items-center sm:flex-1 sm:mx-4">
-              <div className="flex-1 bg-gray-200 rounded-full h-6">
-                <div className="bg-green-500 h-6 rounded-full" style={{width: `${patch.ratings.valueForMoney}%`}}></div>
-              </div>
-              <span className="text-gray-700 font-bold text-sm ml-4 sm:w-16">{(patch.ratings.valueForMoney/10).toFixed(1)}/10</span>
-            </div>
-          </div>
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
-            <span className="text-gray-700 font-medium text-sm mb-2 sm:mb-0 sm:w-32">Return Policy</span>
-            <div className="flex items-center sm:flex-1 sm:mx-4">
-              <div className="flex-1 bg-gray-200 rounded-full h-6">
-                <div className="bg-green-500 h-6 rounded-full" style={{width: `${patch.ratings.returnPolicy}%`}}></div>
-              </div>
-              <span className="text-gray-700 font-bold text-sm ml-4 sm:w-16">{(patch.ratings.returnPolicy/10).toFixed(1)}/10</span>
-            </div>
-          </div>
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
-            <span className="text-gray-700 font-medium text-sm mb-2 sm:mb-0 sm:w-32">Customer Satisfaction</span>
-            <div className="flex items-center sm:flex-1 sm:mx-4">
-              <div className="flex-1 bg-gray-200 rounded-full h-6">
-                <div className="bg-green-500 h-6 rounded-full" style={{width: `${patch.ratings.customerSatisfaction}%`}}></div>
-              </div>
-              <span className="text-gray-700 font-bold text-sm ml-4 sm:w-16">{(patch.ratings.customerSatisfaction/10).toFixed(1)}/10</span>
-            </div>
-          </div>
-        </div>
-
         {/* Pros and Cons */}
         <div>
           <h4 className="text-lg font-bold text-green-600 mb-4">PROS</h4>
@@ -146,7 +108,7 @@ export default function ProductCard({ patch }: ProductCardProps) {
             ))}
           </div>
 
-          <h4 className="text-lg font-bold text-gray-700 mb-4">BOTTOM LINE</h4>
+          <h4 className="text-lg font-bold text-gray-700 mb-4">Editor’s Verdict</h4>
           <div className="space-y-4 text-gray-700 leading-relaxed text-sm">
             {patch.bottomLine.split('\n\n').map((paragraph, i) => (
               <p key={i}>{paragraph}</p>

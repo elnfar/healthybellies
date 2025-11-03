@@ -5,66 +5,83 @@ export default function BuyingGuideSection() {
         <div className="bg-white rounded-lg border-2 border-gray-200 p-8 shadow-lg">
           {/* Title */}
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8 leading-tight">
-            The GLP-1 Patch Buying Guide (Don't Get Scammed!)
+            The Expert’s Guide to Choosing a GLP-1 Patch That Actually Works
           </h2>
 
+
           {/* Effective Hormone Support */}
-          <div className="mb-8">
-            <div className="flex items-center mb-4">
-              <span className="text-green-500 mr-3 text-lg font-bold bg-green-500 rounded-full p-2 h-6 w-6 flex items-center justify-center text-white">✓</span>
-              <h3 className="text-xl font-bold text-gray-900">Effective Hormone Support</h3>
-            </div>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              Let me save you $200 and months of frustration. After testing dozens of so-called "GLP-1 patches," I've learned most are just marketing hype with zero actual benefits. The #1 feature of any legitimate GLP-1 patch is consistent hormone support throughout the day. The delivery system must be truly transdermal – I'm talking 8–12 hours of sustained effectiveness. You should feel real appetite control, without crashes or rebounds. This isn't just about weight loss – it's essential for stabilizing blood sugar during perimenopause and restoring your natural metabolic rhythm.
-            </p>
-            <p className="text-lg text-gray-700 leading-relaxed mt-4">
-              If it wears off after 3 hours, it's not a GLP-1 patch – it's an overpriced sticker with good branding.
-            </p>
-          </div>
+<div className="mb-8">
+  <div className="flex items-center mb-4">
+    <span className="text-green-500 mr-3 text-lg font-bold bg-green-500 rounded-full p-2 h-6 w-6 flex items-center justify-center text-white">✓</span>
+    <h3 className="text-xl font-bold text-gray-900">Consistent, Effective Hormone Support</h3>
+  </div>
+  <p className="text-lg text-gray-700 leading-relaxed">
+    The mark of a truly effective GLP-1 patch is steady, day-long hormonal support — not quick bursts followed by crashes. 
+    A legitimate patch should deliver ingredients consistently through advanced transdermal technology, maintaining appetite control and stable energy for 8–12 hours straight. 
+    When that balance is achieved, you’ll feel it — fewer cravings, smoother moods, and real metabolic stability.
+  </p>
+  <p className="text-lg text-gray-700 leading-relaxed mt-4">
+    If your patch fades after just a few hours, it’s not real GLP-1 support — it’s simply a sticker with marketing behind it.
+  </p>
+</div>
 
-          {/* Medical-Grade Ingredients */}
-          <div className="mb-8">
-            <div className="flex items-center mb-4">
-              <span className="text-green-500 mr-3 text-lg font-bold bg-green-500 rounded-full p-2 h-6 w-6 flex items-center justify-center text-white">✓</span>
-              <h3 className="text-xl font-bold text-gray-900">Medical-Grade Ingredients</h3>
-            </div>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              Your patch should contain clinically effective dosages – not just trace amounts that look good on a label but do absolutely nothing. I was shocked after comparing ingredient lists to real clinical data. The difference? Horrifying. A properly formulated GLP-1 patch doesn't just curb cravings – it actively supports multiple aspects of metabolic health. I even interviewed an endocrinologist who told me most OTC hormone products fail because they're underdosed and ineffective. Scary stuff.
-            </p>
-          </div>
+{/* Medical-Grade Ingredients */}
+<div className="mb-8">
+  <div className="flex items-center mb-4">
+    <span className="text-green-500 mr-3 text-lg font-bold bg-green-500 rounded-full p-2 h-6 w-6 flex items-center justify-center text-white">✓</span>
+    <h3 className="text-xl font-bold text-gray-900">Clinically Backed, Medical-Grade Ingredients</h3>
+  </div>
+  <p className="text-lg text-gray-700 leading-relaxed">
+    Potency matters. The best GLP-1 patches use clinically supported doses of proven compounds — not trace amounts that look impressive on a label but do nothing for your body. 
+    A properly formulated patch doesn’t just dull hunger; it nourishes your metabolism, supports insulin sensitivity, and promotes balanced hormone function from within.
+  </p>
+  <p className="text-lg text-gray-700 leading-relaxed mt-4">
+    Always choose brands that disclose their full ingredient list and use medical-grade formulations — transparency and quality go hand in hand.
+  </p>
+</div>
 
-          {/* Hypoallergenic Adhesive */}
-          <div className="mb-8">
-            <div className="flex items-center mb-4">
-              <span className="text-green-500 mr-3 text-lg font-bold bg-green-500 rounded-full p-2 h-6 w-6 flex items-center justify-center text-white">✓</span>
-              <h3 className="text-xl font-bold text-gray-900">Hypoallergenic Adhesive</h3>
-            </div>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              A high-quality patch should cause zero skin irritation. That's only possible with medical-grade, hypoallergenic adhesives. Those budget patches with harsh glue? Dangerous and totally not worth it. Switching to gentle, skin-safe patches eliminated my irritation – something three different dermatologists couldn't fix. Menopausal skin is sensitive, and it deserves respect – especially if you're wearing something daily.
-            </p>
-          </div>
+{/* Hypoallergenic Adhesive */}
+<div className="mb-8">
+  <div className="flex items-center mb-4">
+    <span className="text-green-500 mr-3 text-lg font-bold bg-green-500 rounded-full p-2 h-6 w-6 flex items-center justify-center text-white">✓</span>
+    <h3 className="text-xl font-bold text-gray-900">Skin-Safe, Hypoallergenic Adhesive</h3>
+  </div>
+  <p className="text-lg text-gray-700 leading-relaxed">
+    Your skin deserves the same level of care as your hormones. 
+    Premium patches use hypoallergenic, medical-grade adhesives that stay secure all day without causing redness or irritation — even on sensitive, perimenopausal skin. 
+    This ensures the ingredients absorb effectively while keeping your skin calm, comfortable, and healthy.
+  </p>
+</div>
 
-          {/* Waterproof Construction */}
-          <div className="mb-8">
-            <div className="flex items-center mb-4">
-              <span className="text-green-500 mr-3 text-lg font-bold bg-green-500 rounded-full p-2 h-6 w-6 flex items-center justify-center text-white">✓</span>
-              <h3 className="text-xl font-bold text-gray-900">Waterproof Construction</h3>
-            </div>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              Top-tier GLP-1 patches are 100% waterproof, so they stay put through hot flashes, night sweats, workouts, and showers. This isn't just about convenience – it's essential for steady hormone delivery. I've tested patches during intense heat and my morning routine, and trust me: the difference between quality and cheap construction is the difference between dependable support… and constant reapplication.
-            </p>
-          </div>
+{/* Waterproof Construction */}
+<div className="mb-8">
+  <div className="flex items-center mb-4">
+    <span className="text-green-500 mr-3 text-lg font-bold bg-green-500 rounded-full p-2 h-6 w-6 flex items-center justify-center text-white">✓</span>
+    <h3 className="text-xl font-bold text-gray-900">Durable, Waterproof Construction</h3>
+  </div>
+  <p className="text-lg text-gray-700 leading-relaxed">
+    A high-quality GLP-1 patch should fit your life — not the other way around. 
+    Look for waterproof construction that withstands showers, workouts, and even hot flashes without peeling or losing effectiveness. 
+    Reliable adherence isn’t just convenient; it’s critical for uninterrupted nutrient delivery and steady hormonal balance throughout the day.
+  </p>
+</div>
 
-          {/* Ethical Manufacturing */}
-          <div>
-            <div className="flex items-center mb-4">
-              <span className="text-green-500 mr-3 text-lg font-bold bg-green-500 rounded-full p-2 h-6 w-6 flex items-center justify-center text-white">✓</span>
-              <h3 className="text-xl font-bold text-gray-900">Ethical Manufacturing</h3>
-            </div>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              This one's non-negotiable. Third-party testing and full transparency are must-haves. One brand I tested (with a $190 price tag!) had none of the active ingredients listed when sent for independent testing. A trustworthy GLP-1 patch delivers consistent results – and gives you peace of mind about what's actually going on your skin. I've used my go-to brand for over six months now, and the benefits have been steady with zero sketchy side effects.
-            </p>
-          </div>
+{/* Ethical Manufacturing */}
+<div>
+  <div className="flex items-center mb-4">
+    <span className="text-green-500 mr-3 text-lg font-bold bg-green-500 rounded-full p-2 h-6 w-6 flex items-center justify-center text-white">✓</span>
+    <h3 className="text-xl font-bold text-gray-900">Ethical Manufacturing & Transparency</h3>
+  </div>
+  <p className="text-lg text-gray-700 leading-relaxed">
+    Trust begins with transparency. 
+    Always choose brands that follow ethical, third-party-verified manufacturing standards and disclose every active ingredient. 
+    You deserve to know exactly what you’re putting on your skin — and that it’s been tested for safety, potency, and purity. 
+    When those standards are met, results are not only visible but consistent week after week.
+  </p>
+</div>
+
+
+      
         </div>
       </div>
     </section>
