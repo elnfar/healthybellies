@@ -115,7 +115,7 @@ Patch Aid’s customer service is fast and responsive, and their 60-day satisfac
       rating: 8.7,
       stars: 4,
       link: "https://kindpatches.com/",
-      image: "/KindPatches.webp",
+      image: "/kp.png",
       hasAward: false,
       hasPromotion: false,
       promotionText: "",
