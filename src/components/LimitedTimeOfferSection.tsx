@@ -4,7 +4,7 @@ export default function LimitedTimeOfferSection() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="prose prose-lg max-w-none">
           <h2 className="text-3xl sm:text-[32px] font-bold text-gray-900 mb-8 leading-tight">
-            Exclusive Reader Offer: Up to 40% OFF AgeSlim GLP-1 Patches + a FREE Gift — Limited-Time Only
+            Exclusive Reader Offer: Up to 70% OFF AgeSlim GLP-1 Patches — Limited-Time Only
           </h2>
           
           <p className="text-[20px] text-gray-700 leading-relaxed mb-6">
@@ -33,7 +33,7 @@ export default function LimitedTimeOfferSection() {
 
 <div className="ml-6 mb-6">
   <p className="text-lg text-gray-700 leading-relaxed mb-3 font-semibold">
-    💥 Up to <strong>40% OFF</strong> AgeSlim’s premium GLP-1 support patches
+    💥 Up to <strong>70% OFF</strong> AgeSlim’s premium GLP-1 support patches
   </p>
 
   <p className="text-lg text-gray-700 leading-relaxed mb-3 font-semibold">

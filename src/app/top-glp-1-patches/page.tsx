@@ -26,7 +26,7 @@ export default function Home() {
       image: "/ageslim.png",
       hasAward: true,
       hasPromotion: true,
-      promotionText: "LIMITED-TIME BLACK FRIDAY DEAL — Buy 2 Get 1 FREE + 70% OFF sitewide + FREE gift included!",
+      promotionText: "LIMITED-TIME BLACK FRIDAY DEAL — Buy 2 Get 1 FREE + 70% OFF sitewide!",
       breakdown: `Look, we've tested countless weight-management solutions — but AgeSlim GLP-1 clearly outperforms every other option we tested.”. These aren't ordinary patches; they're precision-engineered hormonal balance systems that help calm cravings and rebalance metabolism within days.
 
 What makes AgeSlim special is its fusion of true 12-hour steady-release technology and genuine endocrinology expertise. The proprietary Berberine-Plus Complex supports metabolic function and appetite control while aligning with the body’s natural rhythm — something cheap copycats simply can’t replicate.
@@ -76,7 +76,7 @@ Backed by exceptional customer support, free shipping, and consistently positive
       image: "/PatchAid.webp",
       hasAward: false,
       hasPromotion: false,
-      promotionText: "🔥 Limited Time: 40% OFF + Free Shipping on 3-Month Supply",
+      promotionText: "🔥 Limited Time: 70% OFF + Free Shipping on 3-Month Supply",
       breakdown: `Patch Aid has earned its position as our #2 pick thanks to its consistent performance and strong customer satisfaction. While it doesn’t quite reach the innovation level of AgeSlim, it remains a dependable option for those looking to support hormonal balance and steady weight management.
 
 Its standout feature is the Dual-Phase Release System — delivering an initial boost in appetite control within hours, followed by sustained metabolic support for up to 10 hours. The formula combines clinically recognized ingredients such as Chromium Picolinate and Green Coffee Bean Extract, working together to promote healthy glucose metabolism and energy balance.
