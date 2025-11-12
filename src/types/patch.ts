@@ -7,6 +7,7 @@ export interface PatchData {
   rating: number;
   stars: number;
   image: string;
+  gradeText: string;
   hasAward: boolean;
   hasPromotion: boolean;
   promotionText: string;

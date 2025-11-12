@@ -26,7 +26,7 @@ export default function ProductCard({ patch }: ProductCardProps) {
           {/* Emphasized Grade Comment */}
           <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-600 p-4 rounded-r-lg">
             <p className="text-blue-900 font-bold text-lg italic">
-              "Graded {patch.grade} by 27K+ Users"
+              "Graded {patch.gradeText}"
             </p>
           </div>
 
