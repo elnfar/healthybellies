@@ -66,7 +66,7 @@ export default function AdBanner() {
                   -This special offer is valid until-
                 </p>
                 <p className="text-base font-bold text-red-600">
-                  Sunday 11 November 2025
+                  Sunday 19 November 2025
                 </p>
               </div>
             </div>
